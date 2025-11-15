@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ABCRetailsFunctions": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7071"
+    }
+  }
+}

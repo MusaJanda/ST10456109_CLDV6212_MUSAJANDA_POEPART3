@@ -1,0 +1,115 @@
+﻿@model ABCRetails.Models.ViewModels.AdminDashboardViewModel
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1>Admin Dashboard</h1>
+            <p class="text-muted">Welcome, Administrator!</p>
+        </div>
+    </div>
+
+    <!-- Stats Cards -->
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card text-white bg-primary">
+                <div class="card-body text-center">
+                    <h4 class="card-title">@Model.TotalCustomers</h4>
+                    <p class="card-text">Total Customers</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-success">
+                <div class="card-body text-center">
+                    <h4 class="card-title">@Model.TotalProducts</h4>
+                    <p class="card-text">Total Products</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-warning">
+                <div class="card-body text-center">
+                    <h4 class="card-title">@Model.TotalOrders</h4>
+                    <p class="card-text">Total Orders</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-info">
+                <div class="card-body text-center">
+                    <h4 class="card-title">R @Model.TotalRevenue.ToString("N2")</h4>
+                    <p class="card-text">Total Revenue</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Admin Actions</h5>
+                </div>
+                <div class="card-body">
+                    <div class="d-grid gap-2">
+                        <a href="@Url.Action("Index", "Customer")" class="btn btn-outline-primary">
+                            Manage Customers
+                        </a>
+                        <a href="@Url.Action("Index", "Product")" class="btn btn-outline-success">
+                            Manage Products
+                        </a>
+                        <a href="@Url.Action("Index", "Order")" class="btn btn-outline-warning">
+                            Manage Orders
+                        </a>
+                        <a href="@Url.Action("Create", "Product")" class="btn btn-outline-info">
+                            Add New Product
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">System Overview</h5>
+                </div>
+                <div class="card-body">
+                    @if (Model.LowStockProducts != null && Model.LowStockProducts.Any())
+                    {
+                        <p class="text-danger"><strong>Low Stock Alert</strong></p>
+                        <ul>
+                            @foreach (var product in Model.LowStockProducts.Take(3))
+                            {
+                                <li>@product.ProductName - @product.StockAvailable left</li>
+                            }
+                        </ul>
+                        <a href="@Url.Action("Index", "Product")" class="btn btn-warning btn-sm">
+                            View All Products
+                        </a>
+                    }
+                    else
+                    {
+                        <p class="text-success">All products have sufficient stock.</p>
+                    }
+
+                    <hr>
+
+                    @if (Model.RecentOrders != null && Model.RecentOrders.Any())
+                    {
+                        <p><strong>Recent Orders:</strong> @Model.RecentOrders.Count</p>
+                    }
+                    else
+                    {
+                        <p>No recent orders.</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

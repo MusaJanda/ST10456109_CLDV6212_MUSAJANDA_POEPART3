@@ -1,0 +1,131 @@
+﻿@model ABCRetails.Models.ViewModels.CustomerDashboardViewModel
+
+@{
+    ViewData["Title"] = "Customer Dashboard";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h1>Welcome, @Model.CustomerName!</h1>
+                <div class="text-muted">@Model.CustomerEmail</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Cards -->
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card text-white bg-primary">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h4 class="card-title">@Model.OrderCount</h4>
+                            <p class="card-text">Total Orders</p>
+                        </div>
+                        <div class="align-self-center">
+                            <i class="fas fa-shopping-bag fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-warning">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h4 class="card-title">@Model.PendingOrders</h4>
+                            <p class="card-text">Pending Orders</p>
+                        </div>
+                        <div class="align-self-center">
+                            <i class="fas fa-clock fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-info">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h4 class="card-title">@Model.CartItemCount</h4>
+                            <p class="card-text">Cart Items</p>
+                        </div>
+                        <div class="align-self-center">
+                            <i class="fas fa-shopping-cart fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card text-white bg-success">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h4 class="card-title">R @Model.TotalSpent.ToString("N2")</h4>
+                            <p class="card-text">Total Spent</p>
+                        </div>
+                        <div class="align-self-center">
+                            <i class="fas fa-wallet fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Quick Actions</h5>
+                </div>
+                <div class="card-body">
+                    <div class="d-grid gap-2">
+                        <a href="@Url.Action("Index", "Product")" class="btn btn-outline-primary">
+                            <i class="fas fa-store"></i> Browse Products
+                        </a>
+                        <a href="@Url.Action("ViewCart", "Cart")" class="btn btn-outline-info">
+                            <i class="fas fa-shopping-cart"></i> View Cart (@Model.CartItemCount items)
+                        </a>
+                        <a href="@Url.Action("Index", "Order")" class="btn btn-outline-secondary">
+                            <i class="fas fa-list"></i> View Orders
+                        </a>
+                        <a href="@Url.Action("Profile", "Customer")" class="btn btn-outline-warning">
+                            <i class="fas fa-user"></i> My Profile
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title mb-0">Recent Activity</h5>
+                </div>
+                <div class="card-body">
+                    @if (Model.OrderCount > 0)
+                    {
+                        <p>You have placed @Model.OrderCount orders with us.</p>
+                        <p>@Model.PendingOrders orders are currently pending.</p>
+                        <p>Thank you for being a valued customer!</p>
+                    }
+                    else
+                    {
+                        <p>Welcome to ABCRetails! You haven't placed any orders yet.</p>
+                        <p>Start shopping to see your order history here.</p>
+                        <a href="@Url.Action("Index", "Product")" class="btn btn-primary mt-2">
+                            Start Shopping
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

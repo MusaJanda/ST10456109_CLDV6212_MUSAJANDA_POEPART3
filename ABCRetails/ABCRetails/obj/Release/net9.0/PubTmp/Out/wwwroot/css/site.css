@@ -1,0 +1,53 @@
+/* Body and background styling */
+body {
+    background-color: #f0f2f5;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zm0 18v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM12 34v-4h-2v4H6v2h4v4h2v-4h4v-2h-4zM12 0h-2v4H6v2h4v4h2V6h4V4h-4zm0 18v-4h-2v4H6v2h4v4h2v-4h4v-2h-4zM48 6v-4h-2v4h-4v2h4v4h2V8h4V6h-4zm0 18v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM0 6v-4h-2v4H-4v2h4v4h2V8h4V6h-4zm0 18v-4h-2v4H-4v2h4v4h2v-4h4v-2h-4zM24 6v-4h-2v4h-4v2h4v4h2V8h4V6h-4zm0 18v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM0 42v-4h-2v4H-4v2h4v4h2v-4h4v-2h-4zM24 42v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0 18v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM12 42v-4h-2v4H6v2h4v4h2v-4h4v-2h-4zm0 18v-4h-2v4H6v2h4v4h2v-4h4v-2h-4zM36 42v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0 18v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM48 42v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0 18v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM0 48v-4h-2v4H-4v2h4v4h2v-4h4v-2h-4zM24 48v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0 18v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm12 0v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm12 0v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM0 54v-4h-2v4H-4v2h4v4h2v-4h4v-2h-4zm24 54v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM12 48v-4h-2v4H6v2h4v4h2v-4h4v-2h-4zm-2-4v4h-4v-4h-2v4h-4v-4H0v4H-2v-4h-4v4h-2v-4h-4v4h-2v-4h-4v4h-2v-4h-4v4h-2v-4h-4v4h-2v-4h-4v4h-2v-4h-4z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Card styling for dashboard links */
+.card-link {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+    .card-link:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-link .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+/* Color variations for cards */
+.card-customers {
+    background-color: #e6f7ff;
+    color: #0056b3;
+    border-left: 5px solid #007bff;
+}
+
+.card-products {
+    background-color: #e6ffed;
+    color: #1a7538;
+    border-left: 5px solid #28a745;
+}
+
+.card-orders {
+    background-color: #fff9e6;
+    color: #8a6d10;
+    border-left: 5px solid #ffc107;
+}
+
+.card-upload {
+    background-color: #f5f0ff;
+    color: #4c3280;
+    border-left: 5px solid #6f42c1;
+}
+
+/* Icon styling */
+.card-link .card-body i {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}

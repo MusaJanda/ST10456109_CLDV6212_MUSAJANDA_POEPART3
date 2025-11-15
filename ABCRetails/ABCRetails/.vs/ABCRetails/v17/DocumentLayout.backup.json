@@ -1,0 +1,1534 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\order\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\order\\customerindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\order\\customerindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\order\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\order\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\order\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\home\\customerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\home\\customerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\fileupload\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\fileupload\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\customer\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\customer\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\customer\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\customer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\customer\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\customer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\customer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\services\\sqldataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:services\\sqldataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\services\\isqldataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:services\\isqldataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:services\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\services\\ifunctionsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:services\\ifunctionsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\services\\functionsapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:services\\functionsapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\models\\fileuploadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:models\\fileuploadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:models\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\models\\viewmodels\\orderviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:models\\viewmodels\\orderviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\models\\viewmodels\\ordercreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:models\\viewmodels\\ordercreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\models\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:models\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\models\\viewmodels\\customerdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:models\\viewmodels\\customerdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\models\\viewmodels\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:models\\viewmodels\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\models\\viewmodels\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:models\\viewmodels\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251115005828_Msero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251115005828_Msero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\migrations\\20251113160804_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:migrations\\20251113160804_initialcreate.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\migrations\\20251114073442_updateuserpasswordhashcolumn.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:migrations\\20251114073442_updateuserpasswordhashcolumn.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\migrations\\20251114155603_janda.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:migrations\\20251114155603_janda.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\migrations\\20251114123427_musa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:migrations\\20251114123427_musa.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}|..\\ABCRetailsFunctions\\ABCRetailsFunctions.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretailsfunctions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}|..\\ABCRetailsFunctions\\ABCRetailsFunctions.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretailsfunctions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}|..\\ABCRetailsFunctions\\ABCRetailsFunctions.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretailsfunctions\\models\\apimodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}|..\\ABCRetailsFunctions\\ABCRetailsFunctions.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretailsfunctions\\helpers\\multiparthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}|..\\ABCRetailsFunctions\\ABCRetailsFunctions.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretailsfunctions\\helpers\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}|..\\ABCRetailsFunctions\\ABCRetailsFunctions.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretailsfunctions\\helpers\\httpjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}|..\\ABCRetailsFunctions\\ABCRetailsFunctions.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretailsfunctions\\functions\\uploadsfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}|..\\ABCRetailsFunctions\\ABCRetailsFunctions.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretailsfunctions\\functions\\queueprocessorfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}|..\\ABCRetailsFunctions\\ABCRetailsFunctions.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretailsfunctions\\functions\\productsfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}|..\\ABCRetailsFunctions\\ABCRetailsFunctions.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretailsfunctions\\functions\\orderfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}|..\\ABCRetailsFunctions\\ABCRetailsFunctions.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretailsfunctions\\functions\\customerfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}|..\\ABCRetailsFunctions\\ABCRetailsFunctions.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretailsfunctions\\functions\\blobfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}|..\\ABCRetailsFunctions\\ABCRetailsFunctions.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretailsfunctions\\entities\\productentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}|..\\ABCRetailsFunctions\\ABCRetailsFunctions.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretailsfunctions\\entities\\orderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}|..\\ABCRetailsFunctions\\ABCRetailsFunctions.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretailsfunctions\\entities\\customerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\views\\viewcart\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:views\\viewcart\\viewcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251113160430_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20251113160430_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\abcretails.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:abcretails.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\controllers\\debugcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:controllers\\debugcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\migrations\\20251113160804_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:migrations\\20251113160804_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\migrations\\20251114123427_musa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:migrations\\20251114123427_musa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\migrations\\20251114073442_updateuserpasswordhashcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:migrations\\20251114073442_updateuserpasswordhashcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\migrations\\20251114155603_janda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:migrations\\20251114155603_janda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|c:\\users\\lab_services_student\\desktop\\abcretails\\abcretails\\migrations\\20251115010258_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C171636-29DD-4A06-BD64-D900BB55BFFD}|ABCRetails.csproj|solutionrelative:migrations\\20251115010258_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:35:00.434Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Order\\CustomerIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\CustomerIndex.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Order\\CustomerIndex.cshtml",
+              "RelativeToolTip": "Views\\Order\\CustomerIndex.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T08:14:13.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "Views\\Order\\Details.cshtml",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAmwA4BAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T13:47:24.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Order\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Order\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Order\\Edit.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T13:47:29.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAHUBAAAAAAAAAAAmwIoBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T13:47:33.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAANcAAAAAAAAAAAAmwOwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T13:00:14.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwCUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T13:35:41.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAmwOMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T12:55:46.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAWwOQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T12:56:15.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAAwMsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T13:00:43.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwFgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:16:30.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:57:20.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Order\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Order\\Create.cshtml",
+              "RelativeToolTip": "Views\\Order\\Create.cshtml",
+              "ViewState": "AgIAAKoBAAAAAAAAAAAiwL8BAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T12:59:50.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Order\\AdminIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\AdminIndex.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Order\\AdminIndex.cshtml",
+              "RelativeToolTip": "Views\\Order\\AdminIndex.cshtml",
+              "ViewState": "AgIAAA8BAAAAAAAAAAAAACwBAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T08:13:38.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T23:26:24.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAAAL8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T12:59:43.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Home\\CustomerDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CustomerDashboard.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Home\\CustomerDashboard.cshtml",
+              "RelativeToolTip": "Views\\Home\\CustomerDashboard.cshtml",
+              "ViewState": "AgIAALkBAAAAAAAAAAAmwNIBAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T06:45:54.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ContactUs.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Home\\ContactUs.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ContactUs.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Home\\ContactUs.cshtml",
+              "RelativeToolTip": "Views\\Home\\ContactUs.cshtml",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAiwMEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T23:25:48.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Home\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Home\\AdminDashboard.cshtml",
+              "RelativeToolTip": "Views\\Home\\AdminDashboard.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-15T01:49:04.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\FileUpload\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\FileUpload\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\FileUpload\\Index.cshtml",
+              "RelativeToolTip": "Views\\FileUpload\\Index.cshtml",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAmwOAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T12:59:33.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Customer\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Customer\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Profile.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAiwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-15T01:24:08.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAADwBAAAAAAAAAAAjwFUBAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T13:42:18.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Customer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Customer\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Edit.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAADwv0gAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-12T12:54:55.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Customer\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Customer\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Delete.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwCUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-11T13:35:11.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Customer\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Customer\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Dashboard.cshtml",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAHYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-15T01:23:22.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-08T12:59:08.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SqlDataService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\SqlDataService.cs",
+              "RelativeDocumentMoniker": "Services\\SqlDataService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\SqlDataService.cs",
+              "RelativeToolTip": "Services\\SqlDataService.cs",
+              "ViewState": "AgIAAPwCAAAAAAAAAAAowBEDAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:38:31.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Services\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\PasswordHasher.cs",
+              "RelativeToolTip": "Services\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:54:44.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\OrderService.cs",
+              "RelativeToolTip": "Services\\OrderService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T12:23:24.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ISqlDataService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\ISqlDataService.cs",
+              "RelativeDocumentMoniker": "Services\\ISqlDataService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\ISqlDataService.cs",
+              "RelativeToolTip": "Services\\ISqlDataService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA0wDkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T12:15:18.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\IOrderService.cs",
+              "RelativeDocumentMoniker": "Services\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\IOrderService.cs",
+              "RelativeToolTip": "Services\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T00:30:50.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IFunctionsApi.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\IFunctionsApi.cs",
+              "RelativeDocumentMoniker": "Services\\IFunctionsApi.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\IFunctionsApi.cs",
+              "RelativeToolTip": "Services\\IFunctionsApi.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:58:58.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:48:58.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FunctionsApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\FunctionsApiClient.cs",
+              "RelativeDocumentMoniker": "Services\\FunctionsApiClient.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\FunctionsApiClient.cs",
+              "RelativeToolTip": "Services\\FunctionsApiClient.cs",
+              "ViewState": "AgIAAHICAAAAAAAAAAAIwIUCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:58:52.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:39:55.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAACMAAADAzczMzEwYwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:46:09.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "Models\\ShoppingCart.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAxwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T10:42:41.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:35:37.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\OrderItem.cs",
+              "RelativeToolTip": "Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T18:31:58.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FileUploadModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\FileUploadModel.cs",
+              "RelativeDocumentMoniker": "Models\\FileUploadModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\FileUploadModel.cs",
+              "RelativeToolTip": "Models\\FileUploadModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:58:31.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:46:55.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:35:50.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwCQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:34:01.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "OrderViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ViewModels\\OrderViewModels.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\OrderViewModels.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ViewModels\\OrderViewModels.cs",
+              "RelativeToolTip": "Models\\ViewModels\\OrderViewModels.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA0wDkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T12:22:56.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "OrderCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ViewModels\\OrderCreateViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\OrderCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ViewModels\\OrderCreateViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\OrderCreateViewModel.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:58:06.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:46:46.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:57:56.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CustomerDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ViewModels\\CustomerDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\CustomerDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ViewModels\\CustomerDashboardViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\CustomerDashboardViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAywBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:09:04.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CartItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ViewModels\\CartItemViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\CartItemViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ViewModels\\CartItemViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\CartItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T00:18:40.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "AdminDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ViewModels\\AdminDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\AdminDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Models\\ViewModels\\AdminDashboardViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\AdminDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:08:46.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAmwJ0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T18:35:41.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAAwNwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:57:28.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAwDwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:31:04.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T06:44:23.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T10:46:42.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwFgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T23:52:21.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T09:51:01.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-13T09:50:29.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "20251115010258_InitialCreate2.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251115010258_InitialCreate2.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251115010258_InitialCreate2.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251115010258_InitialCreate2.cs",
+              "RelativeToolTip": "Migrations\\20251115010258_InitialCreate2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T01:02:58.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20251115005828_Msero.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251115005828_Msero.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251115005828_Msero.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251115005828_Msero.cs",
+              "RelativeToolTip": "Migrations\\20251115005828_Msero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T00:58:28.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20251113160804_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251113160804_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251113160804_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251113160804_InitialCreate.Designer.cs",
+              "RelativeToolTip": "Migrations\\20251113160804_InitialCreate.Designer.cs",
+              "ViewState": "AgIAALwBAAAAAAAAAAAmwNEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T20:41:23.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20251114073442_UpdateUserPasswordHashColumn.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251114073442_UpdateUserPasswordHashColumn.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251114073442_UpdateUserPasswordHashColumn.Designer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251114073442_UpdateUserPasswordHashColumn.Designer.cs",
+              "RelativeToolTip": "Migrations\\20251114073442_UpdateUserPasswordHashColumn.Designer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAWwA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T20:41:10.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20251114155603_Janda.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251114155603_Janda.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251114155603_Janda.Designer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251114155603_Janda.Designer.cs",
+              "RelativeToolTip": "Migrations\\20251114155603_Janda.Designer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAWwA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T20:40:56.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAWwAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T20:40:42.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-22T11:58:06.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "20251114123427_Musa.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251114123427_Musa.Designer.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251114123427_Musa.Designer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251114123427_Musa.Designer.cs",
+              "RelativeToolTip": "Migrations\\20251114123427_Musa.Designer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAWwA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T20:40:01.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAcwMwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:57:35.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Program.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailsFunctions\\Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Program.cs",
+              "RelativeToolTip": "..\\ABCRetailsFunctions\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T12:35:47.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\local.settings.json",
+              "RelativeDocumentMoniker": "..\\ABCRetailsFunctions\\local.settings.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\local.settings.json",
+              "RelativeToolTip": "..\\ABCRetailsFunctions\\local.settings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-22T11:56:42.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ApiModels.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Models\\ApiModels.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailsFunctions\\Models\\ApiModels.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Models\\ApiModels.cs",
+              "RelativeToolTip": "..\\ABCRetailsFunctions\\Models\\ApiModels.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAiwFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T12:50:25.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "MultipartHelper.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Helpers\\MultipartHelper.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailsFunctions\\Helpers\\MultipartHelper.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Helpers\\MultipartHelper.cs",
+              "RelativeToolTip": "..\\ABCRetailsFunctions\\Helpers\\MultipartHelper.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAmwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T23:30:45.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Map.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Helpers\\Map.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailsFunctions\\Helpers\\Map.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Helpers\\Map.cs",
+              "RelativeToolTip": "..\\ABCRetailsFunctions\\Helpers\\Map.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAcwMAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:41:40.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "HttpJson.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Helpers\\HttpJson.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailsFunctions\\Helpers\\HttpJson.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Helpers\\HttpJson.cs",
+              "RelativeToolTip": "..\\ABCRetailsFunctions\\Helpers\\HttpJson.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAIwHEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T23:30:27.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "QueueProcessorFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Functions\\QueueProcessorFunctions.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailsFunctions\\Functions\\QueueProcessorFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Functions\\QueueProcessorFunctions.cs",
+              "RelativeToolTip": "..\\ABCRetailsFunctions\\Functions\\QueueProcessorFunctions.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAcwMkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:47:06.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ProductsFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Functions\\ProductsFunctions.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailsFunctions\\Functions\\ProductsFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Functions\\ProductsFunctions.cs",
+              "RelativeToolTip": "..\\ABCRetailsFunctions\\Functions\\ProductsFunctions.cs",
+              "ViewState": "AgIAACoBAAAAAAAAAAAmwD8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:42:43.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "OrderFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Functions\\OrderFunctions.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailsFunctions\\Functions\\OrderFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Functions\\OrderFunctions.cs",
+              "RelativeToolTip": "..\\ABCRetailsFunctions\\Functions\\OrderFunctions.cs",
+              "ViewState": "AgIAABwBAAAAAAAAAAAmwDEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:43:12.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "CustomerFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Functions\\CustomerFunctions.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailsFunctions\\Functions\\CustomerFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Functions\\CustomerFunctions.cs",
+              "RelativeToolTip": "..\\ABCRetailsFunctions\\Functions\\CustomerFunctions.cs",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAcwN0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:47:00.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "UploadsFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Functions\\UploadsFunctions.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailsFunctions\\Functions\\UploadsFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Functions\\UploadsFunctions.cs",
+              "RelativeToolTip": "..\\ABCRetailsFunctions\\Functions\\UploadsFunctions.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAcwL8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:01:52.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "BlobFunctions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Functions\\BlobFunctions.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailsFunctions\\Functions\\BlobFunctions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Functions\\BlobFunctions.cs",
+              "RelativeToolTip": "..\\ABCRetailsFunctions\\Functions\\BlobFunctions.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAcwFwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:46:57.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ProductEntity.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Entities\\ProductEntity.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailsFunctions\\Entities\\ProductEntity.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Entities\\ProductEntity.cs",
+              "RelativeToolTip": "..\\ABCRetailsFunctions\\Entities\\ProductEntity.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA2wB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:36:55.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "OrderEntity.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Entities\\OrderEntity.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailsFunctions\\Entities\\OrderEntity.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Entities\\OrderEntity.cs",
+              "RelativeToolTip": "..\\ABCRetailsFunctions\\Entities\\OrderEntity.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:36:28.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "CustomerEntity.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Entities\\CustomerEntity.cs",
+              "RelativeDocumentMoniker": "..\\ABCRetailsFunctions\\Entities\\CustomerEntity.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetailsFunctions\\Entities\\CustomerEntity.cs",
+              "RelativeToolTip": "..\\ABCRetailsFunctions\\Entities\\CustomerEntity.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA2wCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:36:24.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ViewCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\ViewCart\\ViewCart.cshtml",
+              "RelativeDocumentMoniker": "Views\\ViewCart\\ViewCart.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Views\\ViewCart\\ViewCart.cshtml",
+              "RelativeToolTip": "Views\\ViewCart\\ViewCart.cshtml",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAmwOEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T14:21:22.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "FileUploadController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\FileUploadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FileUploadController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\FileUploadController.cs",
+              "RelativeToolTip": "Controllers\\FileUploadController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAmwC8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T12:57:13.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "20251114155603_Janda.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251114155603_Janda.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251114155603_Janda.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251114155603_Janda.cs",
+              "RelativeToolTip": "Migrations\\20251114155603_Janda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T15:56:03.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "20251114123427_Musa.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251114123427_Musa.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251114123427_Musa.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251114123427_Musa.cs",
+              "RelativeToolTip": "Migrations\\20251114123427_Musa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T12:34:28.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "20251114073442_UpdateUserPasswordHashColumn.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251114073442_UpdateUserPasswordHashColumn.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251114073442_UpdateUserPasswordHashColumn.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251114073442_UpdateUserPasswordHashColumn.cs",
+              "RelativeToolTip": "Migrations\\20251114073442_UpdateUserPasswordHashColumn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T07:34:42.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "20251113160804_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251113160804_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251113160804_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251113160804_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20251113160804_InitialCreate.cs",
+              "ViewState": "AgIAAAsBAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T16:08:04.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20251113160430_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251113160430_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20251113160430_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Migrations\\20251113160430_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20251113160430_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T16:04:30.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "ABCRetails.csproj",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\ABCRetails.csproj",
+              "RelativeDocumentMoniker": "ABCRetails.csproj",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\ABCRetails.csproj",
+              "RelativeToolTip": "ABCRetails.csproj",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABUAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-12T11:14:06.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-28T11:26:03.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "DebugController.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\DebugController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DebugController.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\ABCRetails\\ABCRetails\\Controllers\\DebugController.cs",
+              "RelativeToolTip": "Controllers\\DebugController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAxwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T13:17:59.65Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+﻿@model IEnumerable<ABCRetails.Models.ViewModels.OrderViewModel>
+@{
+    ViewData["Title"] = "Order Management - Admin";
+}
+
+<style>
+    .page-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 2rem;
+        border-radius: 15px;
+        margin-bottom: 2rem;
+    }
+
+    .order-card {
+        background: white;
+        border-radius: 15px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-left: 5px solid #667eea;
+        transition: transform 0.3s ease;
+    }
+
+        .order-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+
+    .order-header {
+        display: flex;
+        justify-content: between;
+        align-items: center;
+        margin-bottom: 1rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .order-id {
+        font-family: 'Courier New', monospace;
+        background: rgba(102, 126, 234, 0.1);
+        padding: 0.5rem 1rem;
+        border-radius: 10px;
+        font-weight: 600;
+        color: #667eea;
+    }
+
+    .order-date {
+        color: #6c757d;
+        font-size: 0.9rem;
+    }
+
+    .status-badge {
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+
+    .badge-pending {
+        background: #fff3cd;
+        color: #856404;
+    }
+
+    .badge-processing {
+        background: #cce7ff;
+        color: #004085;
+    }
+
+    .badge-shipped {
+        background: #d1ecf1;
+        color: #0c5460;
+    }
+
+    .badge-delivered {
+        background: #d4edda;
+        color: #155724;
+    }
+
+    .badge-cancelled {
+        background: #f8d7da;
+        color: #721c24;
+    }
+
+    .order-details {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .detail-item {
+        background: #f8f9fa;
+        padding: 1rem;
+        border-radius: 10px;
+        border: 1px solid #e9ecef;
+    }
+
+    .detail-label {
+        font-size: 0.8rem;
+        color: #6c757d;
+        margin-bottom: 0.25rem;
+    }
+
+    .detail-value {
+        font-weight: 600;
+        color: #2c3e50;
+    }
+
+    .order-actions {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    .btn-action {
+        border-radius: 8px;
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+        font-weight: 600;
+        text-decoration: none;
+        border: none;
+        transition: all 0.3s ease;
+    }
+
+    .btn-view {
+        background: rgba(59, 130, 246, 0.1);
+        color: #3b82f6;
+        border: 1px solid rgba(59, 130, 246, 0.3);
+    }
+
+    .btn-edit {
+        background: rgba(245, 158, 11, 0.1);
+        color: #f59e0b;
+        border: 1px solid rgba(245, 158, 11, 0.3);
+    }
+
+    .btn-delete {
+        background: rgba(239, 68, 68, 0.1);
+        color: #ef4444;
+        border: 1px solid rgba(239, 68, 68, 0.3);
+    }
+
+    .btn-view:hover {
+        background: #3b82f6;
+        color: white;
+    }
+
+    .btn-edit:hover {
+        background: #f59e0b;
+        color: white;
+    }
+
+    .btn-delete:hover {
+        background: #ef4444;
+        color: white;
+    }
+
+    .empty-state {
+        text-align: center;
+        padding: 4rem 2rem;
+        color: #6c757d;
+    }
+
+        .empty-state i {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+</style>
+
+<div class="container-fluid">
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <h1 class="mb-2"><i class="fas fa-tasks me-2"></i>Order Management</h1>
+                <p class="mb-0">Manage and track all customer orders</p>
+            </div>
+            <div class="text-white-50">
+                <i class="fas fa-users me-1"></i>Admin Portal
+            </div>
+        </div>
+    </div>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="orders-container">
+            @foreach (var order in Model.OrderByDescending(o => o.OrderDate))
+            {
+                <div class="order-card">
+                    <div class="order-header">
+                        <div class="d-flex flex-column">
+                            <span class="order-id">
+                                <i class="fas fa-hashtag me-1"></i>@order.Id
+                            </span>
+                            <span class="order-date">
+                                <i class="far fa-calendar me-1"></i>@order.OrderDate.ToString("MMMM dd, yyyy 'at' h:mm tt")
+                            </span>
+                        </div>
+                        <span class="status-badge badge-@order.Status.ToLower()">
+                            <i class="fas fa-circle me-1" style="font-size: 0.5rem;"></i>@order.Status
+                        </span>
+                    </div>
+
+                    <div class="order-details">
+                        <div class="detail-item">
+                            <div class="detail-label"><i class="fas fa-user me-1"></i>Customer</div>
+                            <div class="detail-value">@order.CustomerName</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label"><i class="fas fa-envelope me-1"></i>Email</div>
+                            <div class="detail-value">@order.Email</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label"><i class="fas fa-box me-1"></i>Products</div>
+                            <div class="detail-value">@order.ProductNames</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label"><i class="fas fa-sort-amount-up me-1"></i>Items</div>
+                            <div class="detail-value">@order.ItemsCount</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label"><i class="fas fa-dollar-sign me-1"></i>Total Amount</div>
+                            <div class="detail-value text-success fw-bold">@order.TotalAmount.ToString("C")</div>
+                        </div>
+                    </div>
+
+                    <div class="order-actions">
+                        <a asp-action="Details" asp-route-id="@order.Id" class="btn-action btn-view">
+                            <i class="fas fa-eye me-1"></i>View Details
+                        </a>
+                        <a asp-action="Edit" asp-route-id="@order.Id" class="btn-action btn-edit">
+                            <i class="fas fa-edit me-1"></i>Edit Status
+                        </a>
+                        <form asp-action="Delete" method="post" class="d-inline">
+                            <input type="hidden" name="id" value="@order.Id" />
+                            <button type="submit" class="btn-action btn-delete"
+                                    onclick="return confirm('Are you sure you want to delete order @order.Id?')">
+                                <i class="fas fa-trash me-1"></i>Delete
+                            </button>
+                        </form>
+
+                        @if (order.Status != "Delivered" && order.Status != "Cancelled")
+                        {
+                            <div class="dropdown d-inline">
+                                <button class="btn-action" style="background: rgba(16, 185, 129, 0.1); color: #10b981; border: 1px solid rgba(16, 185, 129, 0.3);"
+                                        type="button" data-bs-toggle="dropdown">
+                                    <i class="fas fa-sync-alt me-1"></i>Update Status
+                                </button>
+                                <ul class="dropdown-menu">
+                                    @if (order.Status == "Pending")
+                                    {
+                                        <li><a class="dropdown-item" href="#" onclick="updateStatus('@order.Id', 'Processing')">Processing</a></li>
+                                    }
+                                    @if (order.Status == "Processing")
+                                    {
+                                        <li><a class="dropdown-item" href="#" onclick="updateStatus('@order.Id', 'Shipped')">Shipped</a></li>
+                                    }
+                                    @if (order.Status == "Shipped")
+                                    {
+                                        <li><a class="dropdown-item" href="#" onclick="updateStatus('@order.Id', 'Delivered')">Delivered</a></li>
+                                    }
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item text-danger" href="#" onclick="updateStatus('@order.Id', 'Cancelled')">Cancel Order</a></li>
+                                </ul>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="empty-state">
+            <i class="fas fa-shopping-cart"></i>
+            <h3 class="mt-3">No Orders Found</h3>
+            <p class="text-muted">There are no orders in the system yet.</p>
+            <p class="text-muted">Customer orders will appear here once they are placed.</p>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        function updateStatus(orderId, newStatus) {
+            if (confirm(`Are you sure you want to update order ${orderId} to "${newStatus}"?`)) {
+                fetch('@Url.Action("UpdateOrderStatus", "Order")', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                        'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                    },
+                    body: `id=${orderId}&newStatus=${newStatus}`
+                })
+                .then(response => {
+                    if (response.ok) {
+                        location.reload();
+                    } else {
+                        alert('Error updating order status');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Error updating order status');
+                });
+            }
+        }
+    </script>
+}

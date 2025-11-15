@@ -1,0 +1,287 @@
+﻿@model ABCRetails.Models.ViewModels.HomeViewModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<style>
+    .hero-section {
+        text-align: center;
+        padding: 4rem 0;
+        background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(236, 72, 153, 0.1));
+        border-radius: 24px;
+        margin-bottom: 3rem;
+        border: 1px solid var(--border-color);
+    }
+
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #6366f1, #ec4899, #10b981);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+
+    .stat-card {
+        background: var(--card-bg);
+        border-radius: 20px;
+        padding: 2rem;
+        text-align: center;
+        border: 1px solid var(--border-color);
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+        text-decoration: none;
+        display: block;
+        color: inherit;
+    }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(99, 102, 241, 0.3);
+            border-color: var(--primary-color);
+            text-decoration: none;
+            color: inherit;
+        }
+
+            .stat-card:hover::before {
+                transform: scaleX(1);
+            }
+
+        .stat-card i {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-card h5 {
+            color: var(--text-primary);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+    .stat-number {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--primary-color);
+    }
+
+    .product-card {
+        background: var(--card-bg);
+        border-radius: 20px;
+        overflow: hidden;
+        border: 1px solid var(--border-color);
+        transition: all 0.3s ease;
+        height: 100%;
+    }
+
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            border-color: var(--primary-color);
+        }
+
+        .product-card img {
+            height: 250px;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .product-card .card-body {
+            padding: 1.5rem;
+        }
+
+    .product-price {
+        font-size: 1.8rem;
+        font-weight: 700;
+        background: linear-gradient(135deg, var(--accent-color), #34d399);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+
+    .stock-badge {
+        padding: 0.5rem 1rem;
+        border-radius: 50px;
+        font-size: 0.875rem;
+        font-weight: 600;
+    }
+
+    .btn-cart {
+        background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+        border: none;
+        border-radius: 12px;
+        padding: 0.75rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        color: white;
+    }
+
+        .btn-cart:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(99, 102, 241, 0.4);
+            color: white;
+        }
+
+    .section-title {
+        text-align: center;
+        margin: 3rem 0 2rem;
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--text-primary);
+    }
+
+        .section-title i {
+            color: var(--secondary-color);
+        }
+
+    .lead {
+        color: var(--text-secondary);
+        font-size: 1.25rem;
+    }
+</style>
+
+<div class="hero-section">
+    <h1><i class="fas fa-store"></i> Welcome to ABC Retails</h1>
+    <p class="lead">Your one-stop shop for premium products</p>
+</div>
+
+<!-- Role-based statistics -->
+<div class="row g-4 mb-5">
+    @if (Model.IsAuthenticated && Model.IsAdmin)
+    {
+        <!-- Admin sees all stats -->
+        <div class="col-md-3">
+            <a asp-controller="Customer" asp-action="Index" class="stat-card">
+                <i class="fas fa-users"></i>
+                <h5>Customers</h5>
+                <div class="stat-number">@Model.CustomerCount</div>
+                <small style="color: var(--text-secondary);">Total Registered</small>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a asp-controller="Product" asp-action="Index" class="stat-card">
+                <i class="fas fa-box"></i>
+                <h5>Products</h5>
+                <div class="stat-number">@Model.ProductCount</div>
+                <small style="color: var(--text-secondary);">In Inventory</small>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a asp-controller="Order" asp-action="Index" class="stat-card">
+                <i class="fas fa-shopping-cart"></i>
+                <h5>Orders</h5>
+                <div class="stat-number">@Model.OrderCount</div>
+                <small style="color: var(--text-secondary);">Total Orders</small>
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a asp-controller="FileUpload" asp-action="Index" class="stat-card">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <h5>Upload</h5>
+                <div class="stat-number"><i class="fas fa-file" style="font-size: 2rem;"></i></div>
+                <small style="color: var(--text-secondary);">Documents</small>
+            </a>
+        </div>
+    }
+    else if (Model.IsAuthenticated)
+    {
+        <!-- Customer sees welcome message and product count -->
+        <div class="col-md-6">
+            <div class="stat-card">
+                <i class="fas fa-user-check"></i>
+                <h5>Welcome Back!</h5>
+                <div class="stat-number">@User.Identity.Name</div>
+                <small style="color: var(--text-secondary);">Ready to shop?</small>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <a asp-controller="Product" asp-action="Index" class="stat-card">
+                <i class="fas fa-box"></i>
+                <h5>Products Available</h5>
+                <div class="stat-number">@Model.ProductCount</div>
+                <small style="color: var(--text-secondary);">Browse our collection</small>
+            </a>
+        </div>
+    }
+    else
+    {
+        <!-- Guest sees product count only -->
+        <div class="col-md-12">
+            <a asp-controller="Product" asp-action="Index" class="stat-card">
+                <i class="fas fa-box"></i>
+                <h5>Products Available</h5>
+                <div class="stat-number">@Model.ProductCount</div>
+                <small style="color: var(--text-secondary);">Browse our collection</small>
+            </a>
+        </div>
+    }
+</div>
+
+<!-- Featured Products Section -->
+<h3 class="section-title">
+    <i class="fas fa-star"></i> Featured Products
+</h3>
+
+@if (Model.FeaturedProducts != null && Model.FeaturedProducts.Any())
+{
+    <div class="row g-4">
+        @foreach (var product in Model.FeaturedProducts)
+        {
+            <div class="col-md-4 col-lg-3">
+                <div class="product-card">
+                    @if (!string.IsNullOrEmpty(product.ImageUrl))
+                    {
+                        <img src="@product.ImageUrl" class="card-img-top" alt="@product.ProductName">
+                    }
+                    else
+                    {
+                        <div class="text-center py-5" style="background: rgba(99, 102, 241, 0.1);">
+                            <i class="fas fa-image fa-3x" style="color: var(--text-secondary);"></i>
+                        </div>
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: var(--text-primary);">@product.ProductName</h5>
+                        <p class="card-text" style="color: var(--text-secondary); font-size: 0.9rem;">
+                            @(product.Description?.Length > 100 ? product.Description.Substring(0, 100) + "..." : product.Description)
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="product-price">@product.Price.ToString("C")</span>
+                            <span class="stock-badge" style="background: @(product.StockAvailable > 10 ? "rgba(16, 185, 129, 0.2)" : product.StockAvailable > 0 ? "rgba(251, 191, 36, 0.2)" : "rgba(239, 68, 68, 0.2)"); color: @(product.StockAvailable > 10 ? "#10b981" : product.StockAvailable > 0 ? "#fbbf24" : "#ef4444");">
+                                Stock: @product.StockAvailable
+                            </span>
+                        </div>
+                        @if (User.Identity.IsAuthenticated && User.IsInRole("Customer"))
+                        {
+                            <button class="btn btn-cart w-100 mt-3">
+                                <i class="fas fa-cart-plus me-2"></i>Add to Cart
+                            </button>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="alert alert-info text-center">
+        <i class="fas fa-info-circle me-2"></i>No featured products available at this time.
+    </div>
+}

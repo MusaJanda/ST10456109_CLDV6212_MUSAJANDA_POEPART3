@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCRetails", "ABCRetails.csproj", "{9C171636-29DD-4A06-BD64-D900BB55BFFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABCRetailsFunctions", "..\ABCRetailsFunctions\ABCRetailsFunctions.csproj", "{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C171636-29DD-4A06-BD64-D900BB55BFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C171636-29DD-4A06-BD64-D900BB55BFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C171636-29DD-4A06-BD64-D900BB55BFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C171636-29DD-4A06-BD64-D900BB55BFFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA3B5FA-7A0A-4628-8806-5A6F440A3EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F239BFA-D270-42EE-A32A-CA7A1DAB89CF}
+	EndGlobalSection
+EndGlobal

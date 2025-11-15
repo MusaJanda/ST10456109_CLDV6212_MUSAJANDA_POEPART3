@@ -1,0 +1,271 @@
+﻿@model ABCRetails.Models.ViewModels.OrderDetailViewModel
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<style>
+    .details-container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .details-header {
+        background: var(--card-bg);
+        border-radius: 20px;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        border: 1px solid var(--border-color);
+        text-align: center;
+    }
+
+        .details-header h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+
+    .order-id-large {
+        font-family: 'Courier New', monospace;
+        background: rgba(99, 102, 241, 0.1);
+        padding: 0.75rem 1.5rem;
+        border-radius: 12px;
+        font-weight: 600;
+        color: var(--primary-color);
+        display: inline-block;
+    }
+
+    .details-card {
+        background: var(--card-bg);
+        border-radius: 20px;
+        padding: 2rem;
+        border: 1px solid var(--border-color);
+        margin-bottom: 1.5rem;
+    }
+
+    .detail-row {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        gap: 1rem;
+        padding: 1rem 0;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+        .detail-row:last-child {
+            border-bottom: none;
+        }
+
+    .detail-label {
+        color: var(--text-secondary);
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .detail-value {
+        color: var(--text-primary);
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+
+    .status-badge-large {
+        padding: 0.75rem 2rem;
+        border-radius: 50px;
+        font-weight: 700;
+        font-size: 1rem;
+        display: inline-block;
+    }
+
+    .back-button {
+        background: rgba(99, 102, 241, 0.2);
+        border: none;
+        border-radius: 12px;
+        padding: 0.75rem 1.5rem;
+        font-weight: 600;
+        color: var(--primary-color);
+        transition: all 0.3s ease;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+        .back-button:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: translateX(-5px);
+        }
+
+    .order-items-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 1rem;
+    }
+
+        .order-items-table th,
+        .order-items-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .order-items-table th {
+            background: rgba(99, 102, 241, 0.1);
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+</style>
+
+<div class="details-container">
+    <div class="mb-3">
+        <a asp-action="Index" class="back-button">
+            <i class="fas fa-arrow-left me-2"></i> Back to Orders
+        </a>
+    </div>
+
+    <div class="details-header">
+        <h2><i class="fas fa-file-invoice me-2"></i> Order Details</h2>
+        <div class="order-id-large">@Model.Id</div>
+    </div>
+
+    <div class="details-card">
+        <h4 style="color: var(--text-primary); margin-bottom: 1.5rem;">
+            <i class="fas fa-info-circle me-2"></i> Order Information
+        </h4>
+
+        <div class="detail-row">
+            <div class="detail-label">
+                <i class="fas fa-calendar"></i> Order Date
+            </div>
+            <div class="detail-value">@Model.OrderDate.ToString("dddd, MMMM dd, yyyy")</div>
+        </div>
+
+        <div class="detail-row">
+            <div class="detail-label">
+                <i class="fas fa-signal"></i> Status
+            </div>
+            <div class="detail-value">
+                @{
+                    var statusClass = Model.Status switch
+                    {
+                        "Delivered" => "success",
+                        "Shipped" => "success",
+                        "Processed" => "success",
+                        "Processing" => "warning",
+                        "Pending" => "info",
+                        "Cancelled" => "danger",
+                        _ => "secondary"
+                    };
+                }
+                <span class="status-badge-large @statusClass">
+                    @Model.Status
+                </span>
+            </div>
+        </div>
+
+        <div class="detail-row">
+            <div class="detail-label">
+                <i class="fas fa-user"></i> Customer Name
+            </div>
+            <div class="detail-value">@Model.CustomerName</div>
+        </div>
+
+        <div class="detail-row">
+            <div class="detail-label">
+                <i class="fas fa-user-tag"></i> Username
+            </div>
+            <div class="detail-value">@Model.Username</div>
+        </div>
+
+        <div class="detail-row">
+            <div class="detail-label">
+                <i class="fas fa-envelope"></i> Email
+            </div>
+            <div class="detail-value">@Model.Email</div>
+        </div>
+
+        <div class="detail-row">
+            <div class="detail-label">
+                <i class="fas fa-dollar-sign"></i> Total Amount
+            </div>
+            <div class="detail-value" style="color: var(--accent-color); font-size: 1.5rem; font-weight: 700;">
+                @Model.TotalAmount.ToString("C")
+            </div>
+        </div>
+
+        <div class="detail-row">
+            <div class="detail-label">
+                <i class="fas fa-truck"></i> Shipping Address
+            </div>
+            <div class="detail-value">@Model.ShippingAddress</div>
+        </div>
+
+        @if (!string.IsNullOrEmpty(Model.CustomerNotes))
+        {
+            <div class="detail-row">
+                <div class="detail-label">
+                    <i class="fas fa-sticky-note"></i> Customer Notes
+                </div>
+                <div class="detail-value">@Model.CustomerNotes</div>
+            </div>
+        }
+
+        @if (Model.ProcessedDate.HasValue)
+        {
+            <div class="detail-row">
+                <div class="detail-label">
+                    <i class="fas fa-calendar-check"></i> Processed Date
+                </div>
+                <div class="detail-value">@Model.ProcessedDate.Value.ToString("MMMM dd, yyyy")</div>
+            </div>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.ProcessedBy))
+        {
+            <div class="detail-row">
+                <div class="detail-label">
+                    <i class="fas fa-user-cog"></i> Processed By
+                </div>
+                <div class="detail-value">@Model.ProcessedBy</div>
+            </div>
+        }
+    </div>
+
+    <div class="details-card">
+        <h4 style="color: var(--text-primary); margin-bottom: 1.5rem;">
+            <i class="fas fa-boxes me-2"></i> Order Items (@Model.OrderItems.Count items)
+        </h4>
+
+        <table class="order-items-table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Total Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.OrderItems)
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.UnitPrice.ToString("C")</td>
+                        <td style="font-weight: 600; color: var(--accent-color);">@item.TotalPrice.ToString("C")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="d-flex gap-2">
+        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary" style="background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); border: none; border-radius: 12px; padding: 0.75rem 1.5rem;">
+            <i class="fas fa-edit me-2"></i> Edit Order
+        </a>
+        <a asp-action="Index" class="btn btn-secondary" style="background: rgba(239, 68, 68, 0.2); border: 2px solid rgba(239, 68, 68, 0.3); border-radius: 12px; padding: 0.75rem 1.5rem; color: #ef4444;">
+            <i class="fas fa-times me-2"></i> Cancel
+        </a>
+    </div>
+</div>

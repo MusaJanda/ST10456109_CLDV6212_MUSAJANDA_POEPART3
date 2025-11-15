@@ -1,0 +1,368 @@
+﻿@model IEnumerable<ABCRetails.Models.Customer>
+@{
+    ViewData["Title"] = "Customers";
+}
+
+<style>
+    .page-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        background: var(--card-bg);
+        border-radius: 20px;
+        border: 1px solid var(--border-color);
+    }
+
+        .page-header h2 {
+            margin: 0;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+    .btn-add {
+        background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+        border: none;
+        border-radius: 12px;
+        padding: 0.75rem 1.5rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        color: white;
+        text-decoration: none;
+    }
+
+        .btn-add:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(99, 102, 241, 0.4);
+            color: white;
+        }
+
+    .customer-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 1.5rem;
+    }
+
+    .customer-card {
+        background: var(--card-bg);
+        border-radius: 20px;
+        padding: 1.5rem;
+        border: 1px solid var(--border-color);
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .customer-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(180deg, var(--primary-color), var(--secondary-color));
+            transform: scaleY(0);
+            transition: transform 0.3s ease;
+        }
+
+        .customer-card:hover {
+            transform: translateX(5px);
+            border-color: var(--primary-color);
+            box-shadow: 0 10px 30px rgba(99, 102, 241, 0.2);
+        }
+
+            .customer-card:hover::before {
+                transform: scaleY(1);
+            }
+
+    .customer-avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 1rem;
+    }
+
+    .customer-info {
+        margin-bottom: 1rem;
+    }
+
+        .customer-info .label {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .customer-info .value {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+    .customer-id {
+        font-family: 'Courier New', monospace;
+        background: rgba(99, 102, 241, 0.1);
+        padding: 0.25rem 0.5rem;
+        border-radius: 6px;
+        font-size: 0.875rem;
+        color: var(--primary-color);
+    }
+
+    .action-buttons {
+        display: flex;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .btn-action {
+        flex: 1;
+        border-radius: 10px;
+        padding: 0.5rem;
+        border: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        font-size: 0.875rem;
+        text-decoration: none;
+        text-align: center;
+    }
+
+        .btn-action.edit {
+            background: rgba(99, 102, 241, 0.2);
+            color: var(--primary-color);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+        }
+
+            .btn-action.edit:hover {
+                background: var(--primary-color);
+                color: white;
+            }
+
+        .btn-action.view {
+            background: rgba(59, 130, 246, 0.2);
+            color: #3b82f6;
+            border: 1px solid rgba(59, 130, 246, 0.3);
+        }
+
+            .btn-action.view:hover {
+                background: #3b82f6;
+                color: white;
+            }
+
+        .btn-action.delete {
+            background: rgba(239, 68, 68, 0.2);
+            color: #ef4444;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+
+            .btn-action.delete:hover {
+                background: #ef4444;
+                color: white;
+            }
+
+    /* Modal styles for dark theme */
+    .modal-content {
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 20px;
+    }
+
+    .modal-header {
+        border-bottom: 1px solid var(--border-color);
+        background: rgba(99, 102, 241, 0.05);
+    }
+
+    .modal-title {
+        color: var(--text-primary);
+    }
+
+    .form-control {
+        background: rgba(99, 102, 241, 0.05);
+        border: 1px solid var(--border-color);
+        color: var(--text-primary);
+    }
+
+        .form-control:focus {
+            background: rgba(99, 102, 241, 0.1);
+            border-color: var(--primary-color);
+            color: var(--text-primary);
+            box-shadow: 0 0 0 0.25rem rgba(99, 102, 241, 0.15);
+        }
+
+    .form-text {
+        color: var(--text-secondary);
+    }
+
+    .alert-link {
+        color: var(--primary-color);
+    }
+</style>
+
+<div class="page-header">
+    <h2><i class="fas fa-users me-2"></i> Customers</h2>
+    <a asp-action="Create" class="btn btn-add">
+        <i class="fas fa-plus me-2"></i> Add New Customer
+    </a>
+</div>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <i class="fas fa-check-circle me-2"></i> @TempData["Success"]
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <i class="fas fa-exclamation-circle me-2"></i> @TempData["Error"]
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+@if (TempData["Warning"] != null)
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <i class="fas fa-exclamation-triangle me-2"></i> @TempData["Warning"]
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<!-- Customers Grid -->
+@if (Model.Any())
+{
+    <div class="customer-grid">
+        @foreach (var customer in Model)
+        {
+            <div class="customer-card">
+                <div class="d-flex align-items-start">
+                    <div class="customer-avatar">
+                        @if (!string.IsNullOrEmpty(customer.Name) && !string.IsNullOrEmpty(customer.Surname))
+                        {
+                            @customer.Name.Substring(0, 1)
+                            @customer.Surname.Substring(0, 1)
+                        }
+                        else if (!string.IsNullOrEmpty(customer.Name))
+                        {
+                            @customer.Name.Substring(0, 1)
+                        }
+                        else if (!string.IsNullOrEmpty(customer.Username))
+                        {
+                            @customer.Username.Substring(0, 1)
+                        }
+                        else
+                        {
+                            <text>C</text>
+                        }
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <h5 style="color: var(--text-primary); margin-bottom: 0.5rem;">
+                            @customer.Name @customer.Surname
+                        </h5>
+                        @if (!string.IsNullOrEmpty(customer.CustomerId))
+                        {
+                            <div class="customer-id">@customer.CustomerId.Substring(0, Math.Min(customer.CustomerId.Length, 12))...</div>
+                        }
+                    </div>
+                </div>
+
+                <div class="customer-info mt-3">
+                    <div class="mb-2">
+                        <div class="label"><i class="fas fa-user me-1"></i> Username</div>
+                        <div class="value">@customer.Username</div>
+                    </div>
+                    <div class="mb-2">
+                        <div class="label"><i class="fas fa-envelope me-1"></i> Email</div>
+                        <div class="value">@customer.Email</div>
+                    </div>
+                    <div>
+                        <div class="label"><i class="fas fa-map-marker-alt me-1"></i> Shipping Address</div>
+                        <div class="value">@customer.ShippingAddress</div>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <a asp-action="Edit" asp-route-id="@customer.Id" class="btn btn-action edit">
+                        <i class="fas fa-edit me-1"></i> Edit
+                    </a>
+                    <a asp-action="Details" asp-route-id="@customer.Id" class="btn btn-action view">
+                        <i class="fas fa-eye me-1"></i> View
+                    </a>
+                    <form asp-action="Delete" method="post" class="d-inline flex-fill">
+                        <input type="hidden" name="id" value="@customer.Id" />
+                        <button type="submit" class="btn btn-action delete w-100"
+                                onclick="return confirm('Are you sure you want to delete customer @customer.Name @customer.Surname?')">
+                            <i class="fas fa-trash me-1"></i> Delete
+                        </button>
+                    </form>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="alert alert-info text-center">
+        <i class="fas fa-info-circle me-2"></i>No customers found.
+        <a asp-action="Create" class="alert-link">Create your first customer</a> or
+        <a href="#" class="alert-link" data-bs-toggle="modal" data-bs-target="#uploadModal">upload a JSON file</a>.
+    </div>
+}
+
+<!-- Upload Modal for empty state -->
+<div class="modal fade" id="uploadModal" tabindex="-1" aria-labelledby="uploadModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="uploadModalLabel">Upload Customers</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form asp-action="Upload" method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="fileModal" class="form-label">Select JSON File</label>
+                        <input type="file" class="form-control" id="fileModal" name="file" accept=".json" required />
+                        <div class="form-text">Upload a JSON file containing customer data in the correct format.</div>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-success" style="background: linear-gradient(135deg, #10b981, #059669); border: none;">
+                            <i class="fas fa-upload me-2"></i> Upload Customers
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Auto-dismiss alerts after 5 seconds
+        setTimeout(function () {
+            $('.alert').alert('close');
+        }, 5000);
+
+        // File input validation
+        document.addEventListener('DOMContentLoaded', function() {
+            const fileInput = document.getElementById('file');
+            if (fileInput) {
+                fileInput.addEventListener('change', function() {
+                    const file = this.files[0];
+                    if (file && !file.name.toLowerCase().endsWith('.json')) {
+                        alert('Please select a JSON file.');
+                        this.value = '';
+                    }
+                });
+            }
+        });
+    </script>
+}
